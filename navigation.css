@@ -1,0 +1,41 @@
+body {
+    /* Variables */
+    --lightcolor: #999999;
+    --darkcolor: #666666;
+    --textcolor: lightgray;
+    --hoverbg: #ddd;
+    --hovercolor: #000;
+    --navbg: #787878
+}
+
+.nav {
+    background-color: var(--navbg);
+    display: inline-block;
+    width: 120%;
+    align-items: left;
+    margin-left: -10px;
+    margin-top: -10px;
+}
+
+.navLight {
+    background-color: var(--lightcolor);
+}
+
+.navDark {
+    background-color: var(--darkcolor);
+    
+}
+
+.nav a {
+    float: left;
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color: var(--textcolor)
+}
+
+.nav a:hover {
+    background-color: var(--hoverbg);
+    color: var(--hovercolor);
+}
