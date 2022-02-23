@@ -2,8 +2,8 @@ const container = document.getElementById("navbar");
 
 container.className = "nav"
 
-text = ["Home", "Login", "Register", "Check Cookies", "test"];
-hrefs = ["index.html", "login.html","signup.html","sessioncheck.php", "test.php"];
+text = ["Home", "Login"];
+hrefs = ["index.html", "login.html"];
 
 if (text.length != hrefs.length) {
     console.error("Display Text and hrefs are not the same length!")
